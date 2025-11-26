@@ -1,5 +1,5 @@
 ### Semestrální práce: Segmentace obrazu pomocí prahování
-Tento projekt implementuje a porovnává čtyři různé přístupy k **segmentaci obrazu** s cílem oddělit popředí od pozadí. Jsou porovnány klasické metody prahování (Uživatelský práh, Otsu, Fuzzy) s moderním přístupem hlubokého učení (U-Net).
+##Tento projekt implementuje a porovnává čtyři různé přístupy k **segmentaci obrazu** s cílem oddělit popředí od pozadí. Jsou porovnány klasické metody prahování (Uživatelský práh, Otsu, Fuzzy) s moderním přístupem hlubokého učení (U-Net).
 Práce je rozdělena do dvou Google Colab notebooků, doplněných o písemnou zprávu (PDF).
 ---
 ### Implementované metody
