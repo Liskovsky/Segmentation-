@@ -1,4 +1,3 @@
-"""
 ### Semestrální práce: Segmentace obrazu pomocí prahování
 Tento projekt implementuje a porovnává čtyři různé přístupy k **segmentaci obrazu** s cílem oddělit popředí od pozadí. Jsou porovnány klasické metody prahování (Uživatelský práh, Otsu, Fuzzy) s moderním přístupem hlubokého učení (U-Net).
 Práce je rozdělena do dvou Google Colab notebooků, doplněných o písemnou zprávu (PDF).
@@ -44,4 +43,3 @@ Oba notebooky jsou navrženy pro spuštění v prostředí **Google Colab**.
 * **Syntetická data**: Klasické metody i U-Net dosahují téměř dokonalých výsledků (IoU $\approx 1$).
 * **Reálná data**: Klasické metody selhávají. **U-Net** výrazně překonává ostatní (IoU $0.3-0.6$ vs. $0.05-0.1$ pro klasické metody), je robustnější a přesnější.
 * **Závěr**: Pro praktické nasazení v reálném světě je nezbytná neuronová síť **U-Net**.
-"""
