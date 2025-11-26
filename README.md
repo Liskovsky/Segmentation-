@@ -37,7 +37,7 @@ Oba notebooky jsou navrženy pro spuštění v prostředí **Google Colab**.
     * **Režim C (Upload bez GT)**: Umožní nahrát libovolný obrázek pro čistě vizuální srovnání.
 4.  Interaktivní posuvník "User T" vám umožní ladit uživatelský práh a pozorovat změny v IoU a vizuálním výsledku.
 
-### 📊 Evaluace a Závěry
+### Evaluace a Závěry
 * **Syntetická data**: Klasické metody i U-Net dosahují téměř dokonalých výsledků (IoU $\approx 1$).
 * **Reálná data**: Klasické metody selhávají. **U-Net** výrazně překonává ostatní (IoU $0.3-0.6$ vs. $0.05-0.1$ pro klasické metody), je robustnější a přesnější.
 * **Závěr**: Pro praktické nasazení v reálném světě je nezbytná neuronová síť **U-Net**.
